@@ -27,7 +27,7 @@
 
 ## <sub>lists</sub>
 ##### ordered/numbered
-```
+```html
 <ol>
   <li>Apple</li> 
   <li>Banana</li> 
@@ -36,7 +36,7 @@
 </ol> 
 ```
 ##### unordered/bullet
-```
+```html
 <ul>
   <li>Apple</li> 
   <li>Banana</li> 
@@ -45,7 +45,7 @@
 </ul> 
 ```
 ##### definition
-```
+```html
 <dl>
   <dt>Fruit:</dt>
   <dd>Apple</dd> 
@@ -149,23 +149,22 @@
 |<sub>table</sub>|<sub>representation of information in a grid format (_**EX: TV Schedules, Financial Reports, etc.**_)</sub>|
 
 ## <sub>text</sub>
-#### headers
+#### bold
 ```html
+<!-- headers -->
 <h1></h1> 
-<h2></h2>                                                              
+<h2></h2>                                                            
 <h3></h3> 
 <h4></h4>
 <h5></h5>
 <h6></h6> 
-```
-#### bold
-```html
+
+<!-- bold -->
 <b></b>
 <!-- indicates significant importance -->
 <strong></strong>  
-```
-#### italic
-```html
+
+<!-- italic -->
 <i></i>
 <!-- indicates emphasis that subtly changes the meaning of a sentence -->
 <em></em>
@@ -173,4 +172,35 @@
 <cite></cite>      
 <!-- indicates a defining instance of a new term -->
 <dfn></dfn>
+
+<!-- underline that shows content that has been inserted into the document -->
+<ins></ins> 
+
+<!-- strikethrough -->
+<!-- indicates something is no longer accurate or relevant -->
+<s></s> 
+<!-- shows content that has been deleted from the document  -->
+<del></del>
+
+<!-- superscript/subscript -->
+<sup></sup> 
+<sub></sub>
+
+<!-- breaks -->
+<!-- line break, starts the text after it on a new line -->
+<br/> 
+<!-- creates a horizontal line between elements  -->
+<hr/> 
+
+<!-- quotes/abbreviations -->
+<!-- block quote indentation for longer quotes -->
+<blockquote></blockquote>
+<!-- adds quotes to text and is used for shorter quotes -->
+<q></q>
+<!-- indicates an abbreviation -->
+<abbr title=“full name”>abbreviation</abbr> 
+
+<!-- holds the contact details for the author of the page -->
+<address></address>                                
 ```
+
