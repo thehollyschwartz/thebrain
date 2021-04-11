@@ -1,6 +1,7 @@
 ### 🧠 html brain activity
 
 ## <sub>table of contents</sub>
+- [media](#media)
 - [links](#links)
 - [lists](#lists)
 
@@ -29,6 +30,57 @@
 
 
 
+## <sub>media</sub>
+#### images
+```html
+<img 
+  src=“images/img.png” 
+  alt=“image description” 
+  title=“description (tooltip)” 
+  height=“600” <!-- defaulted to pixels --> 
+  width=“600”  <!-- defaulted to pixels --> 
+  align="left" <!-- allows the picture to be displayed next to body of text, not integrated into text --> 
+/>  
+```
+|<sub>term</sub>|<sub>definition</sub>|
+| :-: | - |
+|<sub>svg</sub>|<sub>scalable vector graphics <br/> type of image format</sub>|
+
+#### audio
+```html
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+  <p>Your browser does not support the audio element.</p>
+</audio>
+```
+|<sub>properties</sub>|<sub>action</sub>|
+| :-: | :- |
+|<sub>controls</sub>|<sub>indicates whether or not the player should display controls</sub>|
+|<sub>autoplay</sub>|<sub>indicates that the audio should start playing automatically</sub>|
+
+#### video
+```html
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  <p>Your browser does not support the audio element.</p>
+</video>  
+```
+|<sub>properties</sub>|<sub>action</sub>|
+| :-: | :- |
+|<sub>preload</sub>|<sub>tells the browser what to do when the page loads<br/>- **none**: browser shouldn’t load the video until the user presses play<br/>- **auto**: browser should download the video when the page loads<br/>- **metadata**: browser should just collect information (_**EX: size, 1st frame, track list, duration**_)</sub>|
+|<sub>poster</sub>|<sub>specify an image to show while the video is downloading or until the user plays the video</sub>|
+|<sub>width</sub>|<sub>specifies the width of the frame</sub>|
+|<sub>height</sub>|<sub>specifies the height of the frame</sub>|
+|<sub>controls</sub>|<sub>indicates that the browser should supply its own controls for playback</sub>|
+|<sub>autoplay</sub>|<sub>indicates that the video should start playing automatically</sub>|
+|<sub>loop</sub>|<sub>indicates that the video should start playing again once it has ended<br/>browser should supply its own controls for playback<br/>date must be specified</sub>|
+
+
+
+
+
 ## <sub>links</sub>
 ```html
 <!-- link -->   
@@ -46,8 +98,6 @@
 <!-- another page with id bottom link -->   
 <a href=“http://url/#bottom”>Link</a>
 ```
-##### ordered/numbered
-
 
 ## <sub>lists</sub>
 ##### ordered/numbered
