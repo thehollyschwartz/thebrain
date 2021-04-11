@@ -1,7 +1,7 @@
 ### 🧠 html brain activity
 
 ## <sub>table of contents</sub>
-- [Paragraph](#paragraph)
+- [Paragraph](##paragraph)
 
 #### benefits
 <ol>
@@ -31,7 +31,7 @@
 
 
 
-# Paragraph
+## Paragraph
 ##### ordered/numbered
 ```
 <ol>
