@@ -149,22 +149,23 @@
 |<sub>table</sub>|<sub>representation of information in a grid format (_**EX: TV Schedules, Financial Reports, etc.**_)</sub>|
 
 ## <sub>text</sub>
-#### bold
+#### headers
 ```html
-<!-- headers -->
 <h1></h1> 
 <h2></h2>                                                            
 <h3></h3> 
 <h4></h4>
 <h5></h5>
 <h6></h6> 
-
-<!-- bold -->
+```
+#### bold
+```html
 <b></b>
 <!-- indicates significant importance -->
 <strong></strong>  
-
-<!-- italic -->
+```
+#### italic
+```html
 <i></i>
 <!-- indicates emphasis that subtly changes the meaning of a sentence -->
 <em></em>
@@ -172,34 +173,41 @@
 <cite></cite>      
 <!-- indicates a defining instance of a new term -->
 <dfn></dfn>
-
-<!-- underline that shows content that has been inserted into the document -->
+```
+#### underline
+```html
 <ins></ins> 
-
-<!-- strikethrough -->
+```
+#### strikethrough
+```html
 <!-- indicates something is no longer accurate or relevant -->
 <s></s> 
 <!-- shows content that has been deleted from the document  -->
 <del></del>
-
-<!-- superscript/subscript -->
+```
+#### superscript/subscript
+```html
 <sup></sup> 
 <sub></sub>
-
-<!-- breaks -->
+```
+#### break 
+```html
 <!-- line break, starts the text after it on a new line -->
 <br/> 
 <!-- creates a horizontal line between elements  -->
 <hr/> 
-
-<!-- quotes/abbreviations -->
+```
+#### quotes/abbreviations 
+```html
 <!-- block quote indentation for longer quotes -->
 <blockquote></blockquote>
 <!-- adds quotes to text and is used for shorter quotes -->
 <q></q>
 <!-- indicates an abbreviation -->
 <abbr title=“full name”>abbreviation</abbr> 
-
+```
+#### contact
+```html
 <!-- holds the contact details for the author of the page -->
 <address></address>                                
 ```
