@@ -1,6 +1,7 @@
 ### 🧠 html brain activity
 
 ## <sub>table of contents</sub>
+- [links](#links)
 - [lists](#lists)
 
 #### benefits
@@ -28,7 +29,24 @@
 
 
 
+## <sub>links</sub>
+```html
+<!-- link -->   
+<a href=“http://link”>Link</a> 
 
+<!-- email link -->        
+<a href=“mailto:test@test.com”>Email</a>  
+
+<!-- open new window link -->        
+<a href=“http://link” target=“_blank">Link</a>
+
+<!-- same page with id bottom link -->                                    
+<a href=“#bottom”>Link</a>
+                                     
+<!-- another page with id bottom link -->   
+<a href=“http://url/#bottom”>Link</a>
+```
+##### ordered/numbered
 
 
 ## <sub>lists</sub>
