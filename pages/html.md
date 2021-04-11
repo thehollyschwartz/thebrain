@@ -149,7 +149,7 @@
 |<sub>table</sub>|<sub>representation of information in a grid format (_**EX: TV Schedules, Financial Reports, etc.**_)</sub>|
 
 ## <sub>text</sub>
-#### headers
+### <sub> headers</sub>
 ```html
 <h1></h1> 
 <h2></h2>                                                            
@@ -158,13 +158,13 @@
 <h5></h5>
 <h6></h6> 
 ```
-#### bold
+### <sub>bold</sub>
 ```html
 <b></b>
 <!-- indicates significant importance -->
 <strong></strong>  
 ```
-#### italic
+### <sub>italic</sub>
 ```html
 <i></i>
 <!-- indicates emphasis that subtly changes the meaning of a sentence -->
@@ -174,30 +174,30 @@
 <!-- indicates a defining instance of a new term -->
 <dfn></dfn>
 ```
-#### underline
+### <sub>underline</sub>
 ```html
 <ins></ins> 
 ```
-#### strikethrough
+### <sub>strikethrough</sub>
 ```html
 <!-- indicates something is no longer accurate or relevant -->
 <s></s> 
 <!-- shows content that has been deleted from the document  -->
 <del></del>
 ```
-#### superscript/subscript
+### <sub>superscript/subscript</sub>
 ```html
 <sup></sup> 
 <sub></sub>
 ```
-#### break 
+### <sub>break</sub>
 ```html
 <!-- line break, starts the text after it on a new line -->
 <br/> 
 <!-- creates a horizontal line between elements  -->
 <hr/> 
 ```
-#### quotes/abbreviations 
+### <sub>quotes/abbreviations</sub>
 ```html
 <!-- block quote indentation for longer quotes -->
 <blockquote></blockquote>
@@ -206,7 +206,7 @@
 <!-- indicates an abbreviation -->
 <abbr title=“full name”>abbreviation</abbr> 
 ```
-#### contact
+### <sub>contact</sub>
 ```html
 <!-- holds the contact details for the author of the page -->
 <address></address>                                
