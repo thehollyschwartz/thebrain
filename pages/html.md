@@ -1,34 +1,59 @@
 ### 🧠 html brain activity
 
 ## <sub>table of contents</sub>
-- [media](#media)
 - [links](#links)
 - [lists](#lists)
+- [media](#media)
+- [tables](#tables)
+- [text](#text)
 
-#### benefits
+## <sub>links</sub>
+```html
+<!-- link -->   
+<a href=“http://link”>Link</a> 
+
+<!-- email link -->        
+<a href=“mailto:test@test.com”>Email</a>  
+
+<!-- open new window link -->        
+<a href=“http://link” target=“_blank">Link</a>
+
+<!-- same page with id bottom link -->                                    
+<a href=“#bottom”>Link</a>
+                                     
+<!-- another page with id bottom link -->   
+<a href=“http://url/#bottom”>Link</a>
+```
+
+## <sub>lists</sub>
+##### ordered/numbered
+```
 <ol>
-  <sub><li>**Cross Browser Compatibility** - Most browsers support websites built with HTML, which means that the user can use their preferred browser (hopefully is chrome 😜) when viewing a website.</li></sub>
-  <li>hello</li>
-</ol>
-<sub>**Cross Browser Compatibility** - Most browsers support websites built with HTML, which means that the user can use their preferred browser (hopefully is chrome 😜) when viewing a website.</sub>
-
-- Doctype.
-  - Simple and short.
-- Improved Accessibility.
-- Cleaner Code.
-- Mobile Optimization.
-- Cross Browser Compatible.
-- Audio/Video Support.
-  - Using the <audio> and <video> tags.
-- Geolocation.
-  - Detect user location to relate to them.
-- Intriguing Interface.
-  - Drawing element allows animation and more.
-- Game Development.
-  - Using the <canvas> tag.
-- Improved Storage.
-
-
+  <li>Apple</li> 
+  <li>Banana</li> 
+  <li>Orange</li>
+  <li>Kiwi</li>
+</ol> 
+```
+##### unordered/bullet
+```
+<ul>
+  <li>Apple</li> 
+  <li>Banana</li> 
+  <li>Orange</li>
+  <li>Kiwi</li>
+</ul> 
+```
+##### definition
+```
+<dl>
+  <dt>Fruit:</dt>
+  <dd>Apple</dd> 
+  <dd>Banana</dd> 
+  <dd>Orange</dd>
+  <dd>Kiwi</dd>
+</dl> 
+```
 
 ## <sub>media</sub>
 #### images
@@ -77,54 +102,75 @@
 |<sub>autoplay</sub>|<sub>indicates that the video should start playing automatically</sub>|
 |<sub>loop</sub>|<sub>indicates that the video should start playing again once it has ended<br/>browser should supply its own controls for playback<br/>date must be specified</sub>|
 
-
-
-
-
-## <sub>links</sub>
+## <sub>tables</sub>
 ```html
-<!-- link -->   
-<a href=“http://link”>Link</a> 
+<!-- container for the table -->
+<table> 
+  <!-- headings of the table -->
+  <thead>
+    <!-- container for the elements in a row -->
+    <tr> 
+      <!-- header items in a table to either a column or row -->
+      <th></th>
+      <th scope=“col”>Fruit</th>
+      <th scope=“col”>Veggies</th>
+    </tr>
+  </thead>
+  <!-- body of the table -->
+  <tbody> 
+    <tr>
+      <th scope=“row”>Orange Color</th>
+      <!-- items in the table -->
+      <td>Orange</td> 
+      <td>Carrot</td>
+    </tr>
+    <tr>
+      <th scope=“row”>Red Color</th>
+      <td>Apple</td>
+      <td>Beet</td>
+    </tr>
+    <tr>
+      <th scope=“row”>Green Color</th>
+      <td>Kiwi</td>
+      <td>Lettuce</td>
+    </tr>
+  </tbody>
+  <!-- footer of the table -->
+  <tfoot> 
+    <tr>
+      <td></td>
+      <td colspan="2">Fruit and Veggies are great!</td>
+    </tr>
+  </tfoot>
+</table>
+```
+|<sub>term</sub>|<sub>definition</sub>|
+| :-: | :- |
+|<sub>table</sub>|<sub>representation of information in a grid format (_**EX: TV Schedules, Financial Reports, etc.**_)</sub>|
 
-<!-- email link -->        
-<a href=“mailto:test@test.com”>Email</a>  
-
-<!-- open new window link -->        
-<a href=“http://link” target=“_blank">Link</a>
-
-<!-- same page with id bottom link -->                                    
-<a href=“#bottom”>Link</a>
-                                     
-<!-- another page with id bottom link -->   
-<a href=“http://url/#bottom”>Link</a>
+## <sub>text</sub>
+#### headers
+```html
+<h1></h1> 
+<h2></h2>                                                              
+<h3></h3> 
+<h4></h4>
+<h5></h5>
+<h6></h6> 
 ```
-
-## <sub>lists</sub>
-##### ordered/numbered
+#### bold
+```html
+<b></b>
+<!-- indicates significant importance -->
+<strong></strong>  
 ```
-<ol>
-  <li>Apple</li> 
-  <li>Banana</li> 
-  <li>Orange</li>
-  <li>Kiwi</li>
-</ol> 
-```
-##### unordered/bullet
-```
-<ul>
-  <li>Apple</li> 
-  <li>Banana</li> 
-  <li>Orange</li>
-  <li>Kiwi</li>
-</ul> 
-```
-##### definition
-```
-<dl>
-  <dt>Fruit:</dt>
-  <dd>Apple</dd> 
-  <dd>Banana</dd> 
-  <dd>Orange</dd>
-  <dd>Kiwi</dd>
-</dl> 
+#### italic
+```html
+<i></i>
+<!-- indicates emphasis that subtly changes the meaning of a sentence -->
+<em></em>
+<!-- cites a piece of work -->
+<cite></cite>      
+<!-- indicates a defining instance of a new term -->
+<dfn></dfn>
 ```
