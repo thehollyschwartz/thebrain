@@ -208,7 +208,7 @@
 
 
 
-## <sub>lists</sub>
+## lists
 ##### ordered/numbered
 ```
 <ol>
