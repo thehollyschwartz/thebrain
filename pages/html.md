@@ -1,7 +1,7 @@
 ### 🧠 html brain activity
 
 ## <sub>table of contents</sub>
-### [lists](##<sub>lists</sub>)
+### [lists](##lists)
 
 #### benefits
 <ol>
