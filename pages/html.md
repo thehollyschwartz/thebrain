@@ -31,7 +31,7 @@
 
 
 
-## lists
+## <sub>lists</sub>
 ##### ordered/numbered
 ```
 <ol>
